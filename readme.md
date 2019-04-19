@@ -12,8 +12,8 @@ There are multiple ways in which you can retrieve data from the twitter Api. For
 2. It will give me more acces to realtime data.
 
 ## Sketches
-![General sketch]("https://github.com/Techdemo/twitterEndgame/blob/master/assets/datamodel.jpg?raw=true")
-![Data model]("https://github.com/Techdemo/twitterEndgame/blob/master/assets/datamodel.jpg?raw=true")
+![General sketch](assets/schets.jpg)
+![Data model](assets/datamodel.jpg)
 
 ## Datamodel
 ```javascript
