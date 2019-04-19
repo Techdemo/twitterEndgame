@@ -13,11 +13,15 @@ There are multiple ways in which you can retrieve data from the twitter Api. For
 
 ## Sketches
 <details><summary>General Sketch</summary>
+<p>
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+</p>
 </details>
 
 <details><summary>Data Model</summary>
+<p>
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+</p>
 </details>
 
 ## Datamodel
@@ -39,12 +43,3 @@ let tweet = {[
 
 ## Feedback
 Do you think this idea is doable in the given timeframe? Some bears on the road to watch out for?
-
-## To - do
-[X] Schets van concept uploaden
-[X] Beschrijving van concept in Readme
-[X] Beschrijving van API
-[X] Schets van meest belangrijke scherm erbij inclusief interactie mogelijkheden
-[X] Data life cycle
-[X] waar wil je nog feedback op
-[X] Vertaal de Readme naar Engels
