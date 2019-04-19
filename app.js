@@ -6,10 +6,7 @@ const Twit = require('twit')
 const
 
 const T = new Twit({
-    consumer_key: 'wgjYZ99oMgaCn6wEMUziUgdi5',
-    consumer_secret: 'NO4sfjohmUhUTvBYFrE1y5m56IHxY5hCXjHMgEwa7Ifjbn7amA',
-    access_token: '828249843965579264 - z7xM27Jhdj47UaHzCFjfvtZaVwonYMl',
-    access_token_secret: '7xuZICNjCTUEDLjaC8Ist2btw0he9dBkP01kTuTwt3Ga6'
+
 });
 
 const server = app.listen(4000, _ => {
