@@ -1,0 +1,22 @@
+{
+  "name": "endgametwitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Marcel Fleuren",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.11",
+    "twit": "^2.2.11"
+  },
+  "dependencies": {
+    "express-hbs": "^2.1.2",
+    "hbs": "^4.0.4",
+    "twitter-stream": "^0.3.0"
+  }
+}
