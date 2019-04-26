@@ -1,1 +1,39 @@
 <h1>{{title}}</h1>
+
+<div class="canvas">
+
+</div>
+
+<div class="canvas">
+    <svg width="600" height="600">
+        <rect></rect>
+    </svg>
+</div>
+
+<section>
+    <ul id="tweetList"></ul>
+</section>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-firestore.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyAkVP2wNQ6X0AoXwEIw4ZIsPbm8IsJ7u44",
+        authDomain: "avengers-b3da5.firebaseapp.com",
+        databaseURL: "https://avengers-b3da5.firebaseio.com",
+        projectId: "avengers-b3da5",
+        storageBucket: "avengers-b3da5.appspot.com",
+        messagingSenderId: "188528270519"
+    };
+    firebase.initializeApp(config);
+    const db = firebase.firestore();
+</script>
+<script src="https://d3js.org/d3.v5.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+<script>
+    var socket = io();
+</script>
